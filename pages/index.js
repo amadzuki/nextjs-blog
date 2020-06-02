@@ -38,14 +38,6 @@ export default function Home({ allPostsData }) {
           })}
         </ul>
       </section>
-      <main>
-        <p>
-          Read my hard coded blog{" "}
-          <Link href="./posts/first-post">
-            <a>here</a>
-          </Link>
-        </p>
-      </main>
     </Layout>
   )
 }
